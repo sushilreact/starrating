@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,33 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.starmain {
+  float: left;
+  width: 100%
+}
+
+.starmain ul {
+  float: left;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+  ;
+}
+
+.starmain ul li {
+  float: left;
+  width: auto;
+  padding: 0 5px 0 5px;
+  cursor: pointer;
+}
+
+.normalstar {
+  color: rgb(47, 47, 49);
+}
+
+.normalstar.red {
+  color: rgb(107, 247, 0);
 }
